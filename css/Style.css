@@ -29,6 +29,9 @@ h2 {
     max-width: 100%;
     border-radius: 8px;
 }
+.divcontainer h2 {
+   color: white;
+}
 
 .result-container {
     background-color: rgba(44, 62, 80, 0.8);
@@ -100,6 +103,19 @@ h2 {
     margin: 15px 0px;
     color: #BDC3C7;
 }
+
+.result-container #clipboard {
+    margin-top: 10px;
+}
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 /* Footer Styles */
 .footer {
     background-color: #34495E;
